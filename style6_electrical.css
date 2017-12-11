@@ -1,0 +1,12 @@
+body
+{
+	background:url('maxresdefault.jpg') no-repeat;
+	background-size:cover;
+	font-family:arial;
+}
+
+*
+{
+	marin:0px;
+	padding:0px;
+}

@@ -1,0 +1,52 @@
+body
+{
+	background:url('senatobiaplant.png') no-repeat;
+	background-size:cover;
+	font-family:arial;
+}
+
+*
+{
+	marin:0px;
+	padding:0px;
+}
+#menu ul
+{
+	list-style:none;
+	
+}
+#menu ul li
+{
+	width:160px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	float:left;
+	margin-right:3px;
+	opacity:6.0;
+	position:relative;
+	border-radius:8px;
+	
+}
+#menu ul li a
+{
+	text-decoration:none;
+	color:black;
+	display:block;
+	opacity:.8;
+}
+#menu ul li a:hover
+{
+	background-color:green;
+	border-radius:8px;
+} 
+#menu ul ul
+{
+	position:absolute;
+	display:none;
+	
+}
+#menu ul li:hover >ul
+{
+	display:block;
+}

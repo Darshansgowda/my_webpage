@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>login</title>
+<link type="text/css"rel="stylesheet"href="style4_open.css"/>
+</head>
+<body oncontextmenu="return false">
+<div class="body"></div>
+<div class="grad"></div>
+<div class="header">
+<div>ABB<span>india.ltd</span></div>
+</div>
+<br/>
+<form name="login">
+<div class="login">
+<input type="text" placeholder="username" name="userid"><br/>
+<input type="password" placeholder="password" name="pswrd"><br/>
+<input type="button" onclick="check(this.form)"value="login"/>
+</div>
+</form>
+<script language="javascript">
+function check(form)
+{
+if(form.userid.value=="darshan" && form.pswrd.value == "Engineer123#")
+{
+window.open('index3_main.html')
+}
+else
+{
+alert("the username and password you entered is wrong")
+}
+}
+</script>
+
+
+</body>
+</html>
